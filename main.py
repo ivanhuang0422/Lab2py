@@ -5,7 +5,7 @@
 # Section: 4
 # Breakout: 11
 def getLetterGrade(grade):
-    return "A","B","B-","C+", "C", "D", "F"
+    return "A","B","B-","C+","C","D","F"
 def run():
   grade=float(input("Enter your CMPSC 131 grade: "))
   if grade>=93.0:
