@@ -11,7 +11,7 @@ def run():
   if grade>=93.0:
     print(f"Your letter grade for CMPSC 131 is A.")
   elif grade>=90.0:
-    print(f"Your letter grade for CMPSC 131 is A.")
+    print(f"Your letter grade for CMPSC 131 is A-.")
   elif grade>=87.0:
     print(f"Your letter grade for CMPSC 131 is B+.")
   elif grade>=83.0:
