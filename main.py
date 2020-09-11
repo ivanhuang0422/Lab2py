@@ -5,7 +5,25 @@
 # Section: 4
 # Breakout: 11
 def getLetterGrade(grade):
-    return "A","B","B-","C+","C","D","F"
+  if grade>=93.0:
+    print("A")
+  elif grade>=90.0:
+    print("A-")
+  elif grade>=87.0:
+    print("B+")
+  elif grade>=83.0:
+    print("B")
+  elif grade>=80.0:
+    print("B-")
+  elif grade>=77.0:
+    print("C+")
+  elif grade>=70.0:
+    print("C")
+  elif grade>=60.0:
+    print("F")
+  else:
+    print("F")
+
 def run():
   grade=float(input("Enter your CMPSC 131 grade: "))
   if grade>=93.0:
